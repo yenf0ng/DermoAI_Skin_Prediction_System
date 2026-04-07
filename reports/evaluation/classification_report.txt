@@ -1,0 +1,114 @@
+MODEL COMPARISON — TEST SET WITH TTA
+======================================================================
+Metric                        ResNet50   EfficientNetB0   MobileNetV3
+----------------------------------------------------------------------
+  Test Accuracy (%)              91.34%          91.59% <--      90.51%    
+  Precision Macro (%)            90.51%          90.57% <--      89.42%    
+  Recall Macro (%)               92.64%          92.88% <--      91.81%    
+  F1 Macro (%)                   91.45%          91.59% <--      90.48%    
+  Precision Weighted (%)         91.54%          91.75% <--      90.67%    
+  Recall Weighted (%)            91.34%          91.59% <--      90.51%    
+  F1 Weighted (%)                91.31%          91.54% <--      90.45%    
+======================================================================
+<-- = best across models for that metric
+
+
+======================================================================
+FULL CLASSIFICATION REPORT — ResNet50
+======================================================================
+                     precision    recall  f1-score   support
+
+               Acne       0.96      0.98      0.97       870
+  Actinic_Keratosis       0.92      0.89      0.90      1072
+      Benign_tumors       0.95      0.79      0.86      1606
+            Bullous       0.90      0.91      0.91       701
+        Candidiasis       0.95      0.98      0.96       328
+       DrugEruption       0.89      0.93      0.91       667
+             Eczema       0.92      0.90      0.91      1254
+ Infestations_Bites       0.83      0.92      0.87       680
+             Lichen       0.93      0.94      0.94       715
+              Lupus       0.89      0.98      0.93       404
+              Moles       0.90      0.97      0.93       462
+          Psoriasis       0.87      0.86      0.86      1051
+            Rosacea       0.93      0.98      0.95       339
+  Seborrh_Keratoses       0.94      0.97      0.95       596
+         SkinCancer       0.85      0.88      0.86       904
+Sun_Sunlight_Damage       0.80      0.95      0.87       413
+              Tinea       0.90      0.82      0.86      1181
+     Unknown_Normal       0.99      0.97      0.98      2159
+    Vascular_Tumors       0.82      0.91      0.86       710
+         Vasculitis       0.90      0.94      0.92       606
+           Vitiligo       0.96      0.98      0.97       889
+              Warts       0.92      0.96      0.94       742
+
+           accuracy                           0.91     18349
+          macro avg       0.91      0.93      0.91     18349
+       weighted avg       0.92      0.91      0.91     18349
+
+
+
+======================================================================
+FULL CLASSIFICATION REPORT — EfficientNetB0
+======================================================================
+                     precision    recall  f1-score   support
+
+               Acne       0.94      0.98      0.96       870
+  Actinic_Keratosis       0.94      0.87      0.91      1072
+      Benign_tumors       0.94      0.80      0.86      1606
+            Bullous       0.89      0.93      0.91       701
+        Candidiasis       0.95      0.98      0.96       328
+       DrugEruption       0.92      0.92      0.92       667
+             Eczema       0.91      0.89      0.90      1254
+ Infestations_Bites       0.89      0.91      0.90       680
+             Lichen       0.91      0.96      0.93       715
+              Lupus       0.92      0.97      0.95       404
+              Moles       0.85      0.97      0.90       462
+          Psoriasis       0.90      0.87      0.89      1051
+            Rosacea       0.88      0.99      0.93       339
+  Seborrh_Keratoses       0.90      0.97      0.93       596
+         SkinCancer       0.89      0.89      0.89       904
+Sun_Sunlight_Damage       0.80      0.95      0.87       413
+              Tinea       0.88      0.82      0.85      1181
+     Unknown_Normal       0.99      0.97      0.98      2159
+    Vascular_Tumors       0.89      0.90      0.90       710
+         Vasculitis       0.84      0.95      0.89       606
+           Vitiligo       0.95      0.98      0.96       889
+              Warts       0.94      0.97      0.95       742
+
+           accuracy                           0.92     18349
+          macro avg       0.91      0.93      0.92     18349
+       weighted avg       0.92      0.92      0.92     18349
+
+
+
+======================================================================
+FULL CLASSIFICATION REPORT — MobileNetV3
+======================================================================
+                     precision    recall  f1-score   support
+
+               Acne       0.95      0.97      0.96       870
+  Actinic_Keratosis       0.93      0.87      0.90      1072
+      Benign_tumors       0.93      0.76      0.83      1606
+            Bullous       0.88      0.92      0.90       701
+        Candidiasis       0.92      0.96      0.94       328
+       DrugEruption       0.92      0.92      0.92       667
+             Eczema       0.91      0.89      0.90      1254
+ Infestations_Bites       0.87      0.90      0.89       680
+             Lichen       0.92      0.96      0.94       715
+              Lupus       0.86      0.96      0.91       404
+              Moles       0.86      0.97      0.91       462
+          Psoriasis       0.88      0.86      0.87      1051
+            Rosacea       0.89      0.99      0.94       339
+  Seborrh_Keratoses       0.90      0.96      0.93       596
+         SkinCancer       0.87      0.86      0.86       904
+Sun_Sunlight_Damage       0.81      0.93      0.87       413
+              Tinea       0.87      0.82      0.84      1181
+     Unknown_Normal       0.99      0.97      0.98      2159
+    Vascular_Tumors       0.82      0.88      0.85       710
+         Vasculitis       0.86      0.93      0.90       606
+           Vitiligo       0.93      0.98      0.95       889
+              Warts       0.90      0.94      0.92       742
+
+           accuracy                           0.91     18349
+          macro avg       0.89      0.92      0.90     18349
+       weighted avg       0.91      0.91      0.90     18349

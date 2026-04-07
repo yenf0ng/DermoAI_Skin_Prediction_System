@@ -1,0 +1,26 @@
+{
+  "mean": {
+    "R": 0.3938,
+    "G": 0.304,
+    "B": 0.2797
+  },
+  "std": {
+    "R": 0.3308,
+    "G": 0.2679,
+    "B": 0.2534
+  },
+  "mean_list": [
+    0.3938,
+    0.304,
+    0.2797
+  ],
+  "std_list": [
+    0.3308,
+    0.2679,
+    0.2534
+  ],
+  "samples_used": 3000,
+  "pixels_counted": 150528000,
+  "skipped": 0,
+  "note": "Computed from training set only. Use mean_list and std_list directly in transforms."
+}

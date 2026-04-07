@@ -1,0 +1,108 @@
+# =========================================================
+# DermoAI .gitignore
+# =========================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch & ML Models
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.pickle
+*.joblib
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data (DO NOT commit large datasets)
+data/
+dataset/
+*.csv
+*.json
+!config.json  # EXCEPT config.json
+!package.json  # EXCEPT package.json
+
+# Model Checkpoints (too large for git)
+checkpoints/*.pth
+models/nlp_model/biobert_skin_model/*.bin
+models/nlp_model/biobert_skin_model/pytorch_model.bin
+
+# Reports & Outputs
+reports/predictions/*.csv
+reports/gradcam/*.png
+logs/
+*.log
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# OS Files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Documentation Build
+docs/_build/
+site/
+
+# =========================================================
+# EXCEPTIONS - Files to KEEP in git
+# =========================================================
+# Uncomment if you want to include these:
+# !checkpoints/.gitkeep
+# !data/.gitkeep
+# !reports/.gitkeep

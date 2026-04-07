@@ -1,0 +1,29 @@
+{
+  "ResNet50": {
+    "test_accuracy": 91.34,
+    "precision_macro": 90.51,
+    "recall_macro": 92.64,
+    "f1_macro": 91.45,
+    "precision_weighted": 91.54,
+    "recall_weighted": 91.34,
+    "f1_weighted": 91.31
+  },
+  "EfficientNetB0": {
+    "test_accuracy": 91.59,
+    "precision_macro": 90.57,
+    "recall_macro": 92.88,
+    "f1_macro": 91.59,
+    "precision_weighted": 91.75,
+    "recall_weighted": 91.59,
+    "f1_weighted": 91.54
+  },
+  "MobileNetV3": {
+    "test_accuracy": 90.51,
+    "precision_macro": 89.42,
+    "recall_macro": 91.81,
+    "f1_macro": 90.48,
+    "precision_weighted": 90.67,
+    "recall_weighted": 90.51,
+    "f1_weighted": 90.45
+  }
+}

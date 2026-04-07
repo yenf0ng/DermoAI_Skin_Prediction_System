@@ -1,0 +1,30 @@
+WEAK CLASS ANALYSIS
+======================================================================
+Classes analysed: Benign_tumors, Tinea, SkinCancer, Psoriasis
+
+
+──────────────────────────────────────────────────
+Class: Benign_tumors
+  ResNet50: 78.8% correct | confused with: Vascular_Tumors (54), SkinCancer (51), Infestations_Bites (37)
+  EfficientNetB0: 79.5% correct | confused with: SkinCancer (51), Vascular_Tumors (41), Moles (32)
+  MobileNetV3: 75.6% correct | confused with: Vascular_Tumors (68), SkinCancer (45), Warts (33)
+
+──────────────────────────────────────────────────
+Class: Tinea
+  ResNet50: 81.6% correct | confused with: Psoriasis (50), Eczema (19), Infestations_Bites (19)
+  EfficientNetB0: 82.4% correct | confused with: Eczema (36), Psoriasis (29), Sun_Sunlight_Damage (25)
+  MobileNetV3: 81.8% correct | confused with: Psoriasis (29), Benign_tumors (25), Sun_Sunlight_Damage (22)
+
+──────────────────────────────────────────────────
+Class: SkinCancer
+  ResNet50: 88.1% correct | confused with: Benign_tumors (21), Vascular_Tumors (20), Actinic_Keratosis (11)
+  EfficientNetB0: 88.8% correct | confused with: Seborrh_Keratoses (17), Benign_tumors (13), Moles (13)
+  MobileNetV3: 86.0% correct | confused with: Vascular_Tumors (18), Actinic_Keratosis (15), Benign_tumors (14)
+
+──────────────────────────────────────────────────
+Class: Psoriasis
+  ResNet50: 86.0% correct | confused with: Eczema (31), Tinea (26), Infestations_Bites (13)
+  EfficientNetB0: 87.3% correct | confused with: Eczema (27), Tinea (16), Actinic_Keratosis (12)
+  MobileNetV3: 86.3% correct | confused with: Eczema (22), Tinea (19), Bullous (14)
+
+======================================================================
