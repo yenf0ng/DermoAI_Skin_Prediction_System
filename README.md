@@ -1,4 +1,4 @@
-# 🩺 DermoAI - An Artificial Intelligent Skin Disease Classification/Prediction System
+# 🩺 DermoAI - Artificial Intelligent Skin Disease Classification/Prediction System
 
 <div align="center">
 
