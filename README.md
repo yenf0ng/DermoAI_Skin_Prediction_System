@@ -554,3 +554,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Made with ❤️ by Group51 Research
 
 </div>
+'nUpdated by Your Name
