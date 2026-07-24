@@ -555,3 +555,5 @@ Made with ❤️ by Group51 Research
 
 </div>
 'nUpdated by Your Name
+## Contributors
+* Updated setup instructions & docs.
