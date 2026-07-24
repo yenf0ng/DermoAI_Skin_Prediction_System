@@ -552,8 +552,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **⭐ Star this repository if you find it helpful!**
 
 Made with ❤️ by Group51 Research
+Team members including:
+FOO YEN FONG
+WU YI QING
+ELLICE NG PEI LING
+OO HUI EN
+FOO YONGJUN
 
 </div>
-'nUpdated by Your Name
-## Contributors
-* Updated setup instructions & docs.
